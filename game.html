@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <title>Rock Paper scissors</title>
+  </head>
+  <body>
+    <div class="score">
+      <span class="score-user">0</span>-<span class="score-ai">0</span>
+    </div>
+    <div class="container">
+      <div class="user box">
+        <img id="user-hand" src="" alt="" />
+        <div class="options">
+          <img src="assets/rock-logo.png" alt="rock" />
+          <img src="assets/paper-logo.png" alt="paper" />
+          <img src="assets/scissors-logo.png" alt="scissors" />
+        </div>
+      </div>
+      <img src="assets/vs.png" alt="" />
+      <div class="ai box">
+        <img id="ai-hand" alt="" />
+      </div>
+    </div>
+    <div class="replay">
+      <h3>You won the game</h3>
+      <div class="play-again-box">Play Again</div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
